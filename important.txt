@@ -1,0 +1,21 @@
+My name is Samarth Joshi
+
+important instructions are:
+===========================
+database name - cpe
+import file cpe.sql that contain all table structure
+
+user login:
+-----------------------
+username: sam@gmail.com
+password: sam@gmail.com
+
+=======================
+
+admin login:
+------------------------------
+username: samarth31j@gmail.com
+password: samarth31j@gmail.com
+
+==============================
+

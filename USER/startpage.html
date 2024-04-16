@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleforfirst.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/05f1bca9fd.js" crossorigin="anonymous"></script>
+    <title>SAMARTH JOSHI</title>
+</head>
+
+<body>
+    <svg onclick="openNav();" style="fill:white;" class="toggle-btn" viewBox="0 0 100 80" width="40" height="40">
+        <rect width="100" height="20"></rect>
+        <rect y="30" width="100" height="20"></rect>
+        <rect y="60" width="100" height="20"></rect>
+    </svg>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a class="item" onclick="closeNav()" href="#">Home</a>
+        <a class="item" onclick="closeNav()" href="#about">About Us</a>
+        <a class="item" onclick="closeNav()" href="#projects">Our services</a>
+        <a class="item" onclick="closeNav()" href="#feedback">Contact us</a>
+    </div>
+    <div id="particles-js" class="hero">
+        <div class="video-container">
+            <video autoplay muted loop id="video-bg">
+                <source src="images/backvid.mp4" type="video/mp4">
+            </video>
+            <h1 id="title"> <span id="mm">F</span>ly Away Advanture</h1>
+            <h2>Explore the skies with Fly Away Adventure</h2>
+            <a id="know-more" href="log-in.php">Book your flight <span class="bg"></span></a>
+        </div>
+    </div>
+    <div class="about">
+        <div class="text" id="about">
+            <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true">About</h1>
+            <img data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true"
+                src="images/aboutus.jpg" class="img-fluid float-start shadow p-1 mb-2" width="50%" alt="...">
+            <p data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000" data-aos-once="true">
+                Welcome to Fly Away Adventure! We are your ultimate destination for online airline management. Whether
+                you're a frequent flyer or planning your first adventure, we've got you covered with our seamless
+                booking system, real-time flight tracking, and exceptional customer service.
+                Our website is designed to provide you with a hassle-free experience from booking your flight to
+                managing your travel itinerary. With our user-friendly interface and reliable system, you can focus on
+                enjoying your journey while we take care of the rest.
+                At Fly Away Adventure, we are committed to excellence in every aspect of our service. Our team of
+                skilled professionals works tirelessly to ensure that your travel experience is smooth, efficient, and
+                enjoyable. From our web developers to our customer support representatives, every member of our team is
+                dedicated to providing you with the best possible service.
+
+            </p>
+        </div>
+    </div>
+    <div id="projects" class="projects">
+        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true">Our services</h1>
+        <div class="projectcards">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true"
+                class="card shadow-lg">
+                <h2>Flight Booking</h2>
+                <p>At "Fly Away Adventure," we provide a comprehensive range of services to facilitate seamless flight
+                    bookings for our users. Our platform boasts a user-friendly interface, enabling customers to
+                    effortlessly search for flights based on their preferences and requirements. With real-time updates
+                    on flight availability and flexible search options, users can easily find the most suitable travel
+                    options.</p>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true"
+                class="card shadow-lg">
+                <h2>Seat Selection</h2>
+                <p>At "Fly Away Adventure," we understand the importance of a comfortable journey, which is why we offer
+                    comprehensive seat selection services to our customers. With our intuitive booking platform,
+                    passengers can easily view seat availability and choose their preferred seats based on their
+                    preferences and requirements.Additionally, our platform supports seat customization options, such as
+                    seat upgrades or extra legroom seats, allowing travelers to enhance their onboard experience
+                    further.</p>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true"
+                class="card shadow-lg">
+                <h2>User Accounts</h2>
+                <p>User account information on Fly Away Adventure includes usernames, passwords, and email addresses for
+                    user identification and communication purposes. Additionally, users can store personal details like
+                    their name, contact information, and preferences for a customized booking experience. With robust
+                    security measures, Fly Away Adventure ensures the confidentiality and integrity of user data.</p>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true"
+                class="card shadow-lg">
+                <h2>Flight Information</h2>
+                <p>Flight information on Fly Away Adventure encompasses details such as departure and arrival times,
+                    flight duration, available seating options, and fare prices. Users can conveniently access
+                    comprehensive flight schedules, including route maps and aircraft specifications, to make informed
+                    booking decisions.</p>
+            </div>
+        </div>
+    </div>
+    <div id="feedback" class="feedback">
+        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000" data-aos-once="true">Contact us</h1>
+        <form data-aos="fade-up" data-aos-duration="1000" data-aos-delay="2000" data-aos-once="true" target="_blank"
+            action="https://formsubmit.co/skyadventureairline@gmail.com" method="POST" accept-charset="UTF-8">
+            <input class="shadow" type="email" name="Email" placeholder="Email">
+            <input class="shadow" type="text" name="Name" placeholder="Name">
+            <textarea class="shadow feed" type="text" name="Feedback" placeholder="Feedback"></textarea>
+            <input type="hidden" name="_autoresponse" id="msg" value="Thanks for your Feedback!">
+            <input class="shadow btn btn-secondary send" type="submit" value="Send">
+        </form>
+    </div>
+    <div class="footer">
+        <div class="mlinks">
+
+        </div>
+        <p id="copy">&copy; 2024 Samarth,Shreya,Om,Vaishnavi</p>
+        <p>FLY AWAY ADVANTURE</p>
+    </div>
+    <script src="script/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
