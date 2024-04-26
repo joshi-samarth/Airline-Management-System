@@ -39,6 +39,7 @@ while ($row = mysqli_fetch_assoc($bookedSeatsResult)) {
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -136,6 +137,11 @@ while ($row = mysqli_fetch_assoc($bookedSeatsResult)) {
         input[value^="E"]+label {
             background: linear-gradient(to bottom, #000000, #333333, #666666);
             /* Gradient shades of black */
+        }
+
+        /* Hide checkboxes */
+        input[type="checkbox"] {
+            display: none;
         }
     </style>
 </head>
