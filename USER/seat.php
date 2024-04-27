@@ -82,14 +82,13 @@ while ($row = mysqli_fetch_assoc($bookedSeatsResult)) {
 
         /* Style for selected seats */
         input[type="checkbox"]:checked+label {
-            background-color: green;
+            background-color: #007bff;
             color: white;
             background-image: none;
-            border: 1px solid green;
         }
 
         input[type="checkbox"]:disabled+label {
-            background-color: rgb(198, 10, 170);
+            background-color: #90EE90;
             color: white;
             border: none;
             cursor: not-allowed;
@@ -101,7 +100,7 @@ while ($row = mysqli_fetch_assoc($bookedSeatsResult)) {
             margin-bottom: 20px;
         }
 
-        /* Clearfix for sections */
+        
         .clearfix::after {
             content: "";
             display: table;
